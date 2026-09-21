@@ -152,7 +152,7 @@ header {
         }
       }
     }
-    .header-carrousel-back {
+    .header-carousel-back {
       a {
         display: flex;
         justify-content: center;
@@ -175,7 +175,7 @@ header {
         }
       }
     }
-    .header-carrousel-next {
+    .header-carousel-next {
       a {
         display: flex;
         justify-content: center;
@@ -198,7 +198,7 @@ header {
         }
       }
     }
-    .header-carrousel-position {
+    .header-carousel-position {
       display: flex;
       gap: 5px;
       position: absolute;
@@ -249,10 +249,10 @@ header {
       text-align: center;
     }
   }
-  .header-carrousel-back {
+  .header-carousel-back {
     display: none;
   }
-  .header-carrousel-next {
+  .header-carousel-next {
     display: none;
   }
 }

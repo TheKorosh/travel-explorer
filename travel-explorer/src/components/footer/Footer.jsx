@@ -11,10 +11,8 @@ function Footer() {
         <div className="footer-about-us">
           <img src={FooterIcon} alt="Travel Explorer Logo" width="100%" />
           <p>
-            Explore the world and make
-
-            unforgettable memories with
-            our travel guides and tips.
+            Explore the world and make unforgettable memories with our travel
+            guides and tips.
           </p>
           <div className="footer-social-media-icons-container">
             <a href="#">
@@ -24,7 +22,7 @@ function Footer() {
               <img src={InstagramIcon} alt="Instagram Icon" />
             </a>
             <a href="#">
-              <img src={TwitterIcon} alt="Tweeter Icon" />
+              <img src={TwitterIcon} alt="Twitter Icon" />
             </a>
             <a href="#">
               <img src={YoutubeIcon} alt="YouTube Icon" />
@@ -94,7 +92,12 @@ function Footer() {
           <h4>Subscribe to our newsletter</h4>
           <p>Get the latest travel tips and offers.</p>
           <form action="#">
-            <input type="email" name="" id="" placeholder="Enter your email" />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+            />
             <input type="button" value="Subscribe" />
           </form>
         </div>

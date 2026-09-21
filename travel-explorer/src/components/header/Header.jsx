@@ -70,17 +70,17 @@ function Header() {
             </a>
           </div>
         </div>
-        <div className="header-carrousel-back">
+        <div className="header-carousel-back">
           <a href="#">
             <i className="fa-solid fa-angle-left"></i>
           </a>
         </div>
-        <div className="header-carrousel-next">
+        <div className="header-carousel-next">
           <a href="#">
             <i className="fa-solid fa-angle-right"></i>
           </a>
         </div>
-        <div className="header-carrousel-position">
+        <div className="header-carousel-position">
           <a className="active" href="#">
             <i className="fa-solid fa-circle"></i>
           </a>

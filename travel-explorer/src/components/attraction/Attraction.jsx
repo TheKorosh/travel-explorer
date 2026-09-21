@@ -16,7 +16,11 @@ function Attraction() {
           <a className="popular-attraction-card" href="#" key={attraction.id}>
             <article>
               <div className="popular-attraction-img-container">
-                <img src={attraction.img} alt={attraction.alt} width="100%" />
+                <img
+                  src={attraction.img}
+                  alt={attraction.imgAlt}
+                  width="100%"
+                />
               </div>
               <div className="popular-attraction-card-info">
                 <h4>{attraction.place}</h4>
