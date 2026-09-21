@@ -1,7 +1,7 @@
 const topDestinations = [
   {
     id: 1,
-    img: "https://picsum.photos/612/408",
+    img: "https://picsum.photos/seed/7/612/408",
     imgAlt: "Img Alt",
     filterOverlay: "Filter Overlay",
     city: "City Name",
@@ -17,7 +17,7 @@ const topDestinations = [
   },
   {
     id: 2,
-    img: "https://picsum.photos/612/408",
+    img: "https://picsum.photos/seed/8/612/408",
     imgAlt: "Img Alt",
     filterOverlay: "Filter Overlay",
     city: "City Name",
@@ -33,7 +33,7 @@ const topDestinations = [
   },
   {
     id: 3,
-    img: "https://picsum.photos/612/408",
+    img: "https://picsum.photos/seed/9/612/408",
     imgAlt: "Img Alt",
     filterOverlay: "Filter Overlay",
     city: "City Name",
@@ -49,7 +49,7 @@ const topDestinations = [
   },
   {
     id: 4,
-    img: "https://picsum.photos/612/408",
+    img: "https://picsum.photos/seed/10/612/408",
     imgAlt: "Img Alt",
     filterOverlay: "Filter Overlay",
     city: "City Name",
@@ -65,7 +65,7 @@ const topDestinations = [
   },
   {
     id: 5,
-    img: "https://picsum.photos/612/408",
+    img: "https://picsum.photos/seed/11/612/408",
     imgAlt: "Img Alt",
     filterOverlay: "Filter Overlay",
     city: "City Name",
@@ -81,7 +81,7 @@ const topDestinations = [
   },
   {
     id: 6,
-    img: "https://picsum.photos/612/408",
+    img: "https://picsum.photos/seed/12/612/408",
     imgAlt: "Img Alt",
     filterOverlay: "Filter Overlay",
     city: "City Name",
