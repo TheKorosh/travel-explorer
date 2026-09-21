@@ -1,0 +1,136 @@
+@use "../../styles/base/" as *;
+
+footer {
+  background-color: #011222;
+  padding: white-space(padding-4);
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .footer-about-us {
+      width: 240px;
+      img {
+        width: 200px;
+        margin-bottom: 15px;
+      }
+      p {
+        color: color-theme(color-light);
+      }
+      .footer-social-media-icons-container {
+        display: flex;
+        gap: 10px;
+        a {
+          transition: transition(transition-1);
+          img {
+            width: 35px;
+          }
+          &:hover {
+            opacity: 50%;
+          }
+        }
+      }
+    }
+    .footer-link-container {
+      display: flex;
+      gap: 150px;
+      .footer-link {
+        h4 {
+          color: color-theme(color-light);
+          font-size: font-size(font-size-1);
+        }
+        nav {
+          ul {
+            list-style: none;
+            padding: 0 !important;
+            li {
+              margin-bottom: 2px;
+              a {
+                text-decoration: none;
+                color: color-theme(color-light);
+                font-size: font-size(font-size-1);
+                font-weight: 300;
+                transition: transition(transition-1);
+                &:hover {
+                  color: color-theme(color-nav-hover);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .footer-newsletter {
+      margin-top: 10px;
+      margin-bottom: 15px;
+      h4 {
+        color: color-theme(color-light);
+        font-size: 16px;
+      }
+      p {
+        color: color-theme(color-light);
+        font-size: 14px;
+        font-weight: 200;
+      }
+      input[type="email"] {
+        color: color-theme(color-light);
+        background-color: #172737;
+        padding: white-space(padding-2);
+        width: 275px;
+        border: 0;
+        border-radius: border(radius-1);
+        font-size: font-size(font-size-1);
+        font-weight: font-weight(font-weight-1);
+      }
+      input[type="button"] {
+        color: color-theme(color-light);
+        background-color: color-theme(color-primary);
+        padding: white-space(padding-2);
+        margin-left: 10px;
+        width: 100px;
+        border: 0;
+        border-radius: border(radius-1);
+        font-size: font-size(font-size-1);
+        font-weight: font-weight(font-weight-1);
+        transition: transition(transition-1);
+        &:hover {
+          background-color: color-theme(color-btn-hover);
+        }
+      }
+    }
+  }
+  .footer-copyright {
+    display: flex;
+    justify-content: center;
+    line-height: 10px;
+    p {
+      margin: 0 !important;
+      color: color-theme(color-light);
+      font-size: font-size(font-size-1);
+      font-weight: 200;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .footer-content {
+    gap: 20px;
+    .footer-about-us {
+      width: 100% !important;
+      text-align: center;
+      order: 3;
+      .footer-social-media-icons-container {
+        justify-content: center;
+      }
+    }
+    .footer-link-container {
+      gap: 0px !important;
+      width: 100%;
+      justify-content: space-around;
+      order: 1;
+    }
+    .footer-newsletter {
+      text-align: center;
+      order: 2;
+    }
+  }
+}

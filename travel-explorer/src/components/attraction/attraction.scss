@@ -1,0 +1,102 @@
+@use "../../styles/base/" as *;
+
+.popular-attractions-container {
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-bottom: 3px;
+  .popular-attractions-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    h3 {
+      font-size: font-size(font-size-3);
+      font-weight: font-weight(font-weight-3);
+    }
+    a {
+      display: flex;
+      width: 95px;
+      align-items: center;
+      text-decoration: none;
+      gap: 5px;
+      font-weight: font-weight(font-weight-1);
+      transition: transition(transition-1);
+      &:hover {
+        gap: 10px;
+      }
+    }
+  }
+  .popular-attraction-card-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    .popular-attraction-card {
+      text-decoration: none;
+      width: 15.75%;
+      border: border(border-1);
+      border-radius: border(radius-2);
+      overflow: hidden;
+      transition: transition(transition-1);
+      &:hover {
+        transform: translateY(-5px);
+        border: border(border-hover);
+        background-color: color-theme(color-card-hover);
+      }
+      .popular-attraction-img-container {
+        position: relative;
+      }
+      .popular-attraction-card-info {
+        padding: white-space(padding-2);
+        height: 60px;
+        h4 {
+          color: color-theme(color-dark);
+          font-size: font-size(font-size-1);
+          font-weight: font-weight(font-weight-2);
+          margin-left: 3px;
+          margin-bottom: 5px;
+        }
+        h5 {
+          display: flex;
+          gap: 3px;
+          align-items: center;
+          font-size: 13px;
+          font-weight: font-weight(font-weight-1);
+          color: color-theme(color-dark);
+          span {
+            color: color-theme(color-text-muted);
+          }
+          i {
+            color: color-theme(color-dark);
+            margin-bottom: 3px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1196px) {
+  .popular-attractions-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    .popular-attraction-card-container {
+      .popular-attraction-card {
+        width: 32.1%;
+        &:hover {
+          transform: translateY(0px);
+          border: border(border-1);
+          background-color: color-theme(color-light);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .popular-attractions-container {
+    .popular-attraction-card-container {
+      .popular-attraction-card {
+        width: 100%;
+      }
+    }
+  }
+}

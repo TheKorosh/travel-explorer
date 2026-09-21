@@ -1,0 +1,27 @@
+@use "../base/vars" as *;
+
+@function color-theme($value) {
+  @if $theme== "light" {
+    @return map-get($light-theme, $value);
+  }
+}
+
+@function font-size($value) {
+  @return map-get($font-size, $value);
+}
+
+@function font-weight($value) {
+  @return map-get($font-weight, $value);
+}
+
+@function white-space($value) {
+  @return map-get($white-space, $value);
+}
+
+@function border($value) {
+  @return map-get($border, $value);
+}
+
+@function transition($value) {
+  @return map-get($transition, $value);
+}
