@@ -42,6 +42,7 @@ footer {
           ul {
             list-style: none;
             padding: 0 !important;
+            margin: 0 !important;
             li {
               margin-bottom: 2px;
               a {
@@ -123,10 +124,23 @@ footer {
       }
     }
     .footer-link-container {
-      gap: 0px !important;
-      width: 100%;
-      justify-content: space-around;
+      display: block !important;
+      position: relative;
+      width: 100% !important;
+      text-align: center;
       order: 1;
+      .footer-link {
+        a {
+          display: block;
+          padding: 10px;
+        }
+      }
+      .bordered {
+        border-bottom: 1px solid darken(color-theme(color-light), 70%);
+      }
+      .margined {
+        margin-top: 15px;
+      }
     }
     .footer-newsletter {
       text-align: center;

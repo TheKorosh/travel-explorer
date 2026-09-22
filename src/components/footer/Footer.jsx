@@ -30,7 +30,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-link-container">
-          <div className="footer-link">
+          <div className="footer-link bordered">
             <h4>Company</h4>
             <nav>
               <ul>
@@ -49,7 +49,7 @@ function Footer() {
               </ul>
             </nav>
           </div>
-          <div className="footer-link">
+          <div className="footer-link bordered margined">
             <h4>Support</h4>
             <nav>
               <ul>
@@ -68,7 +68,7 @@ function Footer() {
               </ul>
             </nav>
           </div>
-          <div className="footer-link">
+          <div className="footer-link margined">
             <h4>Resources</h4>
             <nav>
               <ul>
@@ -88,7 +88,7 @@ function Footer() {
             </nav>
           </div>
         </div>
-        <div className="footer-newsletter">
+        <div className="footer-newsletter margined">
           <h4>Subscribe to our newsletter</h4>
           <p>Get the latest travel tips and offers.</p>
           <form action="#">
